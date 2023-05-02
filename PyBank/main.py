@@ -1,1 +1,0 @@
-print "my pay bank" 
