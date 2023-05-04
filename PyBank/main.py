@@ -1,7 +1,7 @@
 import csv
 
 # Open the CSV file
-with open('yourfilename.csv', newline='') as csvfile:
+with open('budget_data.csv', newline='') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
     # Skip the header row
     next(csvreader)
